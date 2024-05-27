@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndObject", "ClassAndO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{93773BE9-2652-49BB-9233-2235C95B2A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{D115832A-2F52-48CE-BEA0-61DDF9CEF5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{79F6C9BB-05F5-4B76-A7D4-ACF2186B8AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{93773BE9-2652-49BB-9233-2235C95B2A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93773BE9-2652-49BB-9233-2235C95B2A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93773BE9-2652-49BB-9233-2235C95B2A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D115832A-2F52-48CE-BEA0-61DDF9CEF5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D115832A-2F52-48CE-BEA0-61DDF9CEF5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D115832A-2F52-48CE-BEA0-61DDF9CEF5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D115832A-2F52-48CE-BEA0-61DDF9CEF5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F6C9BB-05F5-4B76-A7D4-ACF2186B8AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F6C9BB-05F5-4B76-A7D4-ACF2186B8AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F6C9BB-05F5-4B76-A7D4-ACF2186B8AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F6C9BB-05F5-4B76-A7D4-ACF2186B8AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
