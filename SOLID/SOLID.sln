@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{BA1E03F4-8889-4488-A830-ACC12DE2E348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{899DB556-5B98-453D-89CD-F8E6CEDCEE7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BA1E03F4-8889-4488-A830-ACC12DE2E348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA1E03F4-8889-4488-A830-ACC12DE2E348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA1E03F4-8889-4488-A830-ACC12DE2E348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899DB556-5B98-453D-89CD-F8E6CEDCEE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899DB556-5B98-453D-89CD-F8E6CEDCEE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899DB556-5B98-453D-89CD-F8E6CEDCEE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899DB556-5B98-453D-89CD-F8E6CEDCEE7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
