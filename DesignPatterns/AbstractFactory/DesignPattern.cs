@@ -34,7 +34,7 @@ namespace AbstractFactory
         }
     }
 
-    public class Postgresql : IConnection
+    public class PostgresqlConnection : IConnection
     {
         public void Open()
         {
@@ -120,7 +120,7 @@ namespace AbstractFactory
 
         public IConnection CreateConnection()
         {
-            return new Postgresql();
+            return new PostgresqlConnection();
         }
 
         public void Test()
