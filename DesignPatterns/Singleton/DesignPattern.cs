@@ -21,7 +21,7 @@ namespace Singleton
 
         }
         private static MailConfiguration instance;
-        static object state;
+        static object state = new object();
         public static MailConfiguration CreateInstance()
         {
             lock (state)
