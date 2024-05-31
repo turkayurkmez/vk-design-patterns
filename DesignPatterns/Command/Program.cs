@@ -16,3 +16,12 @@ commandInvoker.Add(discountProductCommand);
 commandInvoker.Add(raiseProductCommand);
 
 commandInvoker.ExecuteCommands();
+
+void ChangePrice(double price)
+{
+	if (price<0)
+	{
+		throw new ArgumentOutOfRangeException("Değer negatif olamaz");
+	}
+	Price = price;
+}
